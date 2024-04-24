@@ -23,3 +23,13 @@ else:
     print('Acesso negado!')
 
 #not
+'''
+tudo que é positivo ele torna negativo.
+tudo q é negativo torna porsitivo.
+
+ex: not 10==10
+    R: False
+
+    not 10!=10
+    R: True
+'''
