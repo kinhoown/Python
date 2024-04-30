@@ -37,3 +37,19 @@ usuário.
 #                 print(f'Palavra formatada: {palavra_chave}')
 #             elif i != letra:
 #                 cont+=1
+
+
+palavra = 'eriick'.upper()
+letra_acertadas = ''
+while True:
+    letra = input('Digite uma letra: ').upper()
+    if len(letra) > 1:
+        print('É para digitar apenas uma letra!')
+        continue
+    if letra in palavra:
+        letra_acertadas += letra
+    for letra in palavra:
+        if letra in letra_acertadas:
+            print(letra)
+        else:
+            print('*')
