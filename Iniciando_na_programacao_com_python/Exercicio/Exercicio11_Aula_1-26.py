@@ -73,3 +73,36 @@ contrário disso:
 O segundo dígito do CPF é 0
 """
 
+import os
+while True:
+    try:
+    #digito 1
+
+        cpf = input('Digite seu CPF: EX: xxx.xxx.xxx-xx  ').replace(".", "").replace("-", "")
+        os.system('cls')
+        nove_primeiros_digitos = cpf[:9]
+        cont_digito_1 = 10
+        soma_digito_1 = 0
+        for n in nove_primeiros_digitos:
+            soma_digito_1 += int(n)*cont_digito_1
+            cont_digito_1 -= 1
+        mult_soma_digito_1 = (soma_digito_1 * 10)%11
+        res_primeiro_digito = 0 if mult_soma_digito_1 > 9 else mult_soma_digito_1
+
+    #digito 2
+
+        dez_primeiros_digitos = cpf[:10]
+        cont_digito_2 = 11
+        soma_digito_2 = 0
+        for n_2 in dez_primeiros_digitos:
+            soma_digito_2 += int(n_2)*cont_digito_2
+            cont_digito_2 -= 1
+        mult_soma_digito_2 = (soma_digito_2 * 10)%11
+        res_segundo_digito = 0 if mult_soma_digito_2 > 9 else mult_soma_digito_2
+
+        if res_primeiro_digito == int(cpf[-2]) and res_segundo_digito == int(cpf[-1]):
+            print('Seu CPF é valido!')
+        else:
+            print('CPF invalido!')
+    except:
+        print('Digite seu CPF: EX: xxx.xxx.xxx-xx\n!!!!!!!!!!APENAS NUMEROS!!!!!!!!!!')
