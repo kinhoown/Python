@@ -1,0 +1,7 @@
+essas atividades foi tirada do site https://awari.com.br/10-exercicios-de-python-para-iniciantes-aprenda-a-programar-do-zero-2/
+estou solucionando as atividades com os conhecimentos basico em python que adquiri no primeiro modulo.
+
+curso = python3 udemy
+professor = Luiz Otavio
+modulo = iniciando na programação com python
+
