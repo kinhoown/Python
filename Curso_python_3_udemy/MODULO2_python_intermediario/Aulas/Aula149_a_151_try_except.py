@@ -46,3 +46,13 @@ except Exception:
 
 print('CONTINUAR')
 '''
+
+
+#151- try, except, else e finally + Built-in Exceptions
+
+    #finally diferente do except q é praticamente uma condição. se der erro no try executa o except. o finally é diferente ele sempre vai ser executado.
+
+try:
+    print('eu vou ser executado!')
+finally:
+    print('eu tambem!!!')

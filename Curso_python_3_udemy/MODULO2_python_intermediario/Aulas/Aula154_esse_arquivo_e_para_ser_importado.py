@@ -1,0 +1,1 @@
+print('EU NÃO SOU O ARQUIVO MAIN!!!')
