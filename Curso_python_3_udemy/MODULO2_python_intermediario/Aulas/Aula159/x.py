@@ -1,3 +1,4 @@
-from .y import *
+from .y import oi
 
-print(y.variavel_y)
+
+oi()

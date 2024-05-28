@@ -1,1 +1,2 @@
-variavel_y = 2
+def oi():
+    print('OI')
