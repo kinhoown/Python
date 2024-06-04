@@ -1,0 +1,21 @@
+1 - vai no TERMINAL powershell diretamente no vsCode e digita
+
+2 - python -m venv 'e o nome da pasta q vc quer criar pro ambiente virtual'.
+
+3 - para ATIVAR o ambiente virtual vc colocar no TERMINAL o nome da pasta do ambiente vitual\scripts\activate
+
+4 - para DESATIVAR vc coloca no TERMINAL deactivate
+
+5 - para INSTALAR pacotes no ambiente virtual com o pip, vc tem q saber qual pacote quer instalar e pra isso vc vaio no site https://pypi.org e la vc pesquisa qual pacote vc quer instalar. obs: no proprio site ja da o codigo de instalação.
+
+6 - para DESISTALAR vc coloca pip uninstall e o nome do q vc quer desestalar.
+
+7 - para saber o QUE TEM INSTALADO no ambiente virtual so colocar no TERMINAL pip freeze .
+
+8 - para saber as VERSÕES ANTERIORES DO PACOTE instalado vc coloca no TERMINAL pip index versions e o nome do pacote .
+
+9 - para colocar uma VERSÃO ANTIGA coloca no TERMINAL pip install o nome do pacote==a versão q vc quer.
+
+10 - para ATUALIZAR A VERSÃO coloca no TERMINAL pip install o nome do pacote --upgrade .
+
+11 - para SALVAR UM ARQUIVO TXT para recriar o ambiente vitual futuramente vc digita no TERMINAL pip freeze > requirements.txt
