@@ -19,4 +19,3 @@
 10 - para ATUALIZAR A VERSÃO coloca no TERMINAL pip install o nome do pacote --upgrade .
 
 11 - para SALVAR UM ARQUIVO TXT para recriar o ambiente vitual futuramente vc digita no TERMINAL pip freeze > requirements.txt
-
