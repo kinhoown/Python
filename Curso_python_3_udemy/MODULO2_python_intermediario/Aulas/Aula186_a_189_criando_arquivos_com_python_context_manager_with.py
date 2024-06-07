@@ -2,7 +2,9 @@ import os
 # Criando arquivos com Python + Context Manager with
 
 
-caminho_arquivo = 'd:\\ESTUDOS\\Python\\TESTE\\'
+#caminho_arquivo = 'd:\\ESTUDOS\\Python\\TESTE\\'    #casa
+
+caminho_arquivo = 'C:\\ESTUDOS\\Python\\Curso_python_3_udemy\\MODULO2_python_intermediario\\' #trabalho
 
 caminho_arquivo += 'teste4.txt'
 
@@ -49,6 +51,3 @@ with open(caminho_arquivo, 'r') as arquivo:
 # os.rename - troca o nome ou move o arquivo
 '''os.rename(caminho_arquivo, 'd:\\ESTUDOS\\Python\\TESTE\\teste4.txt')'''
 # Vamos falar mais sobre o módulo json, mas:
-# json.dump = Gera um arquivo json
-
-# json.load
