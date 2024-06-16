@@ -15,7 +15,9 @@ pessoa = {
 }
 
 caminho_arquivo = 'C:\\ESTUDOS\\Python\\Curso_python_3_udemy\\MODULO2_python_intermediario\\'
+
 caminho_arquivo += 'arquivo_teste_json.json'
+
 with open(caminho_arquivo, 'w+') as arquivo:
     json.dump(pessoa, arquivo, indent=2)
 
