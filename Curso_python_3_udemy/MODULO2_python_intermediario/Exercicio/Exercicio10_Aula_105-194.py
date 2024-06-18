@@ -5,7 +5,7 @@ import json
 #CASA = 'D:\\ESTUDOS\\Python\\Curso_python_3_udemy\\MODULO2_python_intermediario\\Exercicio\\'
 #TRABALHO = 'C:\\ESTUDOS\\Python\\Curso_python_3_udemy\\MODULO2_python_intermediario\\Exercicio\\'
 
-caminho_arquivo = 'C:\\ESTUDOS\\Python\\Curso_python_3_udemy\\MODULO2_python_intermediario\\Exercicio\\'
+caminho_arquivo = 'D:\\ESTUDOS\\Python\\Curso_python_3_udemy\\MODULO2_python_intermediario\\Exercicio\\'
 
 caminho_arquivo += 'Exercicio10_Aula_105-194.json'
 
@@ -48,7 +48,7 @@ def ler(tarefas, caminho_arquivo):
     return dados
 
 def salvar(tarefas, caminho_arquivo):
-    with open(caminho_arquivo, 'w', encoding='utf8') as arquivo:
+    with open(caminho_arquivo, 'a+', encoding='utf8') as arquivo:
         dados = json.dump(tarefas, arquivo, indent=2)
     return dados
 
